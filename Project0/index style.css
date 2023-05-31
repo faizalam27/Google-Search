@@ -1,0 +1,50 @@
+.navbar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.searchbar{
+    font: Sans-serif;
+    color: blue;
+    margin: 10px;
+    text-decoration: none;
+}
+.searchbar:hover{
+    color: black;
+    text-decoration: underline;
+}
+.centerdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+#rounded{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: white;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 24px;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 600px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.click{
+    margin: 10px;
+    height: 35px;
+    background:rgb(239, 235, 235);
+    border: 1px rgb(246, 243, 243);
+    border-radius: 5px;
+    margin-top: -15px;
+    width: 140px;
+}
+.click:hover{
+    border: 1px solid rgb(192, 191, 191);
+}

@@ -1,0 +1,102 @@
+.navbar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.searchbar:hover{
+    color: black;
+    text-decoration: underline;
+}
+.space{
+    display: flex;
+    flex-direction: row;
+}
+.adv{
+    font-size: 20px;
+    color: red;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: -30px;
+    opacity: 60%;
+}
+.form{
+    display:flex;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+.lineone{
+    display: flex;
+    flex-direction: row;
+}
+#sublineone{
+    margin-left: 600px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(85, 84, 84);
+}
+#find{
+    height: 30px;
+    display: table-cell;
+    font-size: 19px;
+    color: rgb(56, 55, 55);
+    text-decoration: none;
+}
+.small{
+    max-width: 370px;
+    font-size: 13px;
+    margin-left: 20px;
+    color: rgb(83, 83, 83)
+}
+.input1{
+    height: 25px;
+    width: 500px;
+    margin-left: 120px;
+}
+.input2{
+    height: 25px;
+    width: 500px;
+    margin-left: 55px;
+}
+.input3{
+    height: 25px;
+    width: 500px;
+    margin-left: 95px;
+}
+.input4{
+    height: 25px;
+    width: 500px;
+    margin-left: 87px;
+}
+.input5{
+    height: 25px;
+    width: 220px;
+    margin-left: 72px;
+    margin-right: 20px;
+}
+.input6{
+    height: 25px;
+    width: 220px;
+    margin-left: 20px;
+}
+.button{
+    font-weight: bold;
+    font-size: 11px;
+    height: 30px;
+    width: 120px;
+    padding-left: 14px;
+    display: flex;
+    margin-left: 609px;
+    margin-top: 10px;
+    color: white;
+    background: rgb(50, 136, 242);
+    border: 1px rgb(246, 243, 243);
+    border-radius: 2px;
+}
+.button:hover{
+    border: 1px rgb(189, 218, 242);
+    background: rgb(28, 124, 242);
+}
